@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="k5.Top" size="0.120000 0.100114"/>
+        <ImageTarget name="k5.Back" size="0.120000 0.120000"/>
+        <ImageTarget name="k5.Right" size="0.100000 0.119863"/>
+        <ImageTarget name="k5.Bottom" size="0.120000 0.100114"/>
+        <ImageTarget name="k5.Front" size="0.120000 0.120000"/>
+        <ImageTarget name="k5.Left" size="0.100000 0.119863"/>
+        <ImageTarget name="k4.Top" size="0.080000 0.069968"/>
+        <ImageTarget name="k4.Back" size="0.080000 0.119958"/>
+        <ImageTarget name="k4.Right" size="0.070000 0.120012"/>
+        <ImageTarget name="k4.Bottom" size="0.080000 0.069968"/>
+        <ImageTarget name="k4.Front" size="0.080000 0.119958"/>
+        <ImageTarget name="k4.Left" size="0.070000 0.120012"/>
+        <ImageTarget name="k7.Top" size="0.150000 0.150000"/>
+        <ImageTarget name="k7.Back" size="0.150000 0.150000"/>
+        <ImageTarget name="k7.Right" size="0.150000 0.150000"/>
+        <ImageTarget name="k7.Bottom" size="0.150000 0.150000"/>
+        <ImageTarget name="k7.Front" size="0.150000 0.150000"/>
+        <ImageTarget name="k7.Left" size="0.150000 0.150000"/>
+        <ImageTarget name="k3.Top" size="0.100000 0.100000"/>
+        <ImageTarget name="k3.Back" size="0.100000 0.100000"/>
+        <ImageTarget name="k3.Right" size="0.100000 0.100000"/>
+        <ImageTarget name="k3.Bottom" size="0.100000 0.100000"/>
+        <ImageTarget name="k3.Front" size="0.100000 0.100000"/>
+        <ImageTarget name="k3.Left" size="0.100000 0.100000"/>
+        <ImageTarget name="k6.Top" size="0.080000 0.080000"/>
+        <ImageTarget name="k6.Back" size="0.080000 0.139927"/>
+        <ImageTarget name="k6.Right" size="0.080000 0.139927"/>
+        <ImageTarget name="k6.Bottom" size="0.080000 0.080000"/>
+        <ImageTarget name="k6.Front" size="0.080000 0.139927"/>
+        <ImageTarget name="k6.Left" size="0.080000 0.139927"/>
+        <ImageTarget name="k2.Top" size="0.110000 0.040034"/>
+        <ImageTarget name="k2.Back" size="0.110000 0.159884"/>
+        <ImageTarget name="k2.Right" size="0.040000 0.159811"/>
+        <ImageTarget name="k2.Bottom" size="0.110000 0.040034"/>
+        <ImageTarget name="k2.Front" size="0.110000 0.159884"/>
+        <ImageTarget name="k2.Left" size="0.040000 0.159811"/>
+        <ImageTarget name="k1.Top" size="0.150000 0.049955"/>
+        <ImageTarget name="k1.Back" size="0.150000 0.229929"/>
+        <ImageTarget name="k1.Right" size="0.050000 0.230163"/>
+        <ImageTarget name="k1.Bottom" size="0.150000 0.049955"/>
+        <ImageTarget name="k1.Front" size="0.150000 0.229929"/>
+        <ImageTarget name="k1.Left" size="0.050000 0.230163"/>
+        <MultiTarget name="k5">
+            <Part name="k5.Left" translation="-0.05999999865889549 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="k5.Right" translation="0.05999999865889549 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="k5.Front" translation="0 0 0.05000000074505806" rotation="AD: 1 0 0 0"/>
+            <Part name="k5.Back" translation="0 0 -0.05000000074505806" rotation="AD: 0 1 0 180"/>
+            <Part name="k5.Top" translation="0 0.05999999865889549 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="k5.Bottom" translation="0 -0.05999999865889549 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="k4">
+            <Part name="k4.Left" translation="-0.03999999910593033 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="k4.Right" translation="0.03999999910593033 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="k4.Front" translation="0 0 0.03500000014901161" rotation="AD: 1 0 0 0"/>
+            <Part name="k4.Back" translation="0 0 -0.03500000014901161" rotation="AD: 0 1 0 180"/>
+            <Part name="k4.Top" translation="0 0.05999999865889549 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="k4.Bottom" translation="0 -0.05999999865889549 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="k7">
+            <Part name="k7.Left" translation="-0.07500000298023224 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="k7.Right" translation="0.07500000298023224 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="k7.Front" translation="0 0 0.07500000298023224" rotation="AD: 1 0 0 0"/>
+            <Part name="k7.Back" translation="0 0 -0.07500000298023224" rotation="AD: 0 1 0 180"/>
+            <Part name="k7.Top" translation="0 0.07500000298023224 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="k7.Bottom" translation="0 -0.07500000298023224 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="k3">
+            <Part name="k3.Left" translation="-0.05000000074505806 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="k3.Right" translation="0.05000000074505806 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="k3.Front" translation="0 0 0.05000000074505806" rotation="AD: 1 0 0 0"/>
+            <Part name="k3.Back" translation="0 0 -0.05000000074505806" rotation="AD: 0 1 0 180"/>
+            <Part name="k3.Top" translation="0 0.05000000074505806 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="k3.Bottom" translation="0 -0.05000000074505806 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="k6">
+            <Part name="k6.Left" translation="-0.03999999910593033 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="k6.Right" translation="0.03999999910593033 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="k6.Front" translation="0 0 0.03999999910593033" rotation="AD: 1 0 0 0"/>
+            <Part name="k6.Back" translation="0 0 -0.03999999910593033" rotation="AD: 0 1 0 180"/>
+            <Part name="k6.Top" translation="0 0.07000000029802322 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="k6.Bottom" translation="0 -0.07000000029802322 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="k2">
+            <Part name="k2.Left" translation="-0.054999999701976776 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="k2.Right" translation="0.054999999701976776 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="k2.Front" translation="0 0 0.019999999552965164" rotation="AD: 1 0 0 0"/>
+            <Part name="k2.Back" translation="0 0 -0.019999999552965164" rotation="AD: 0 1 0 180"/>
+            <Part name="k2.Top" translation="0 0.07999999821186066 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="k2.Bottom" translation="0 -0.07999999821186066 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="k1">
+            <Part name="k1.Left" translation="-0.07500000298023224 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="k1.Right" translation="0.07500000298023224 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="k1.Front" translation="0 0 0.02500000037252903" rotation="AD: 1 0 0 0"/>
+            <Part name="k1.Back" translation="0 0 -0.02500000037252903" rotation="AD: 0 1 0 180"/>
+            <Part name="k1.Top" translation="0 0.11500000208616257 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="k1.Bottom" translation="0 -0.11500000208616257 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
